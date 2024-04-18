@@ -1,4 +1,6 @@
-# Bessel-droplet Codes were developed in MATLAB R2018a with Windows 10 installed on a Dell workstation (Xeon CPU E5-2667, RAM 128 GB). The main codes to generate phase patterns on SLM for Bessel-droplet foci are “Bessel_droplet_SIM.m” and “Bessel_droplet_SIM_dPhase.m”. The codes to calculate the aberrated Bessel and Bessel-droplet foci are “AstiBesselPSF.m” and “AstiBesselDropletPSF.m”. Related functions are included in the accompanying folder ‘Functions’. The purposes and usages of the Supplementary Codes are listed below with the code procedures describing the computation flow.
+# Bessel-droplet 
+
+Codes were developed in MATLAB R2018a with Windows 10 installed on a Dell workstation (Xeon CPU E5-2667, RAM 128 GB). The main codes to generate phase patterns on SLM for Bessel-droplet foci are “Bessel_droplet_SIM.m” and “Bessel_droplet_SIM_dPhase.m”. The codes to calculate the aberrated Bessel and Bessel-droplet foci are “AstiBesselPSF.m” and “AstiBesselDropletPSF.m”. Related functions are included in the accompanying folder ‘Functions’. The purposes and usages of the Supplementary Codes are listed below with the code procedures describing the computation flow.
 
 Bessel_droplet_SIM.m
 Purpose: This code is used to (1) Find the optimized illumination annulus diameters for Bessel-droplet foci; (2) Generate the phase mask for the optimized Bessel-droplet foci of different numerical apertures (e.g., NA=0.4, 0.5, 0.6, 0.7), and (3) Generate optional 3D PSF for Bessel-droplet foci.
